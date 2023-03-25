@@ -1,5 +1,13 @@
 [package]
-name = "secret_sauce"
+name = "secret-sauce"
+authors = ["Muhammad Sarim <m2sarim.dev@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A CLI password manager"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "password", "manager"]
+categories = ["command-line-utilities"]
 version = "0.1.0"
 edition = "2021"
 

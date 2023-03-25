@@ -660,7 +660,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "secret_sauce"
+name = "secret-sauce"
 version = "0.1.0"
 dependencies = [
  "aes-gcm",
