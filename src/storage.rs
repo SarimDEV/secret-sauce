@@ -12,7 +12,7 @@ pub struct Storage {
 
 impl Storage {
     pub fn init() -> Result<Self, Error> {
-        let path = "origin.txt";
+        let path = "./origin.txt";
 
         let input = File::open(path);
         match input {

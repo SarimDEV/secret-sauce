@@ -11,8 +11,8 @@ use std::collections::HashMap;
 use std::fs::{File, OpenOptions};
 use std::io::{BufRead, BufReader, Error, ErrorKind, Write};
 
-const PATH: &str = "patty_formula.txt";
-const ING_PATH: &str = "ingredient_formula.txt";
+const PATH: &str = "./patty_formula.txt";
+const ING_PATH: &str = "./ingredient_formula.txt";
 const ITERATIONS: u32 = 10000;
 
 pub struct Access {
